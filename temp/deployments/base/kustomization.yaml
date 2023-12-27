@@ -1,0 +1,11 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+resources:
+  - hydra-authn-configmap.yaml
+  - hydra-authn-secret.yaml
+  - hydra-authn-services.yaml
+  - hydra-authn-deployment.yaml
+
+
+ # - hydra-authn-apisixroute.yaml

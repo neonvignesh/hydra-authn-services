@@ -1,0 +1,1 @@
+echo "Trying to compile the java classes"

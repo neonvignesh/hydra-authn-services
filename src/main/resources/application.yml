@@ -1,0 +1,50 @@
+
+server:
+    port: 9002
+
+spring:
+  application:
+    name: Enrich Hydra-authn-Service
+  jackson:
+    default-property-inclusion: non_null
+    serialization-inclusion: non_null
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  main:
+    allow-bean-definition-overriding: true
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+
+KambalaApi:
+  generateOtp:
+     Url: ${KAMBALA_GENERATE_OTP_URL}
+  authenticate:
+     Url: ${KAMBALA_AUTHENTICATE_URL}
+  login:
+     Url: ${KAMBALA_OTP_LOGIN_URL}
+  logout:   
+     Url: ${KAMBALA_LOGOUT_URL}
+  forgotPassword:
+     Url: ${KAMBALA_FORGOT_PASSWORD_URL}
+  changePassword:
+     Url: ${KAMBALA_CHANGE_PASSWORD_URL}    
+  generate:
+   secret:
+    key: ${KAMBALA_GENERATE_SECRET_KEY_URL}
+  get:
+   secret:
+    key: ${KAMBALA_GET_SECRET_KEY_URL}
+  mwList:
+    Url: ${KAMBALA_GET_MWLIST_URL}		
+     
+Kambala:
+  apkVersion: ${LOGIN_APK_VERSION}  
+  vendorKey: ${LOGIN_API_USER} 
+  source: ${LOGIN_SOURCE}
+  factor: ${LOGIN_FACTOR}
+  vendorCode: ${LOGIN_VENDOR_CODE}  
+  imei: ${LOGIN_IMEI}   
+
+Hydra:  
+  ApiKey: ${HYDRA_AUTHN_API_KEY} 

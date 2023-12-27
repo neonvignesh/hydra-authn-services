@@ -1,0 +1,1 @@
+echo "Trying to lint source code "

@@ -1,0 +1,28 @@
+2023-11-30 11:45:55 [main] INFO  c.e.h.authn.HydraServiceApplication - Starting HydraServiceApplication using Java 17.0.5 on ENR-KOD-LP040 with PID 15712 (C:\ORCA-HYDRA-SERVICES\hydra-authn-services\code\hydra-authn-services\hydra-authn-services\target\classes started by E812 in C:\ORCA-HYDRA-SERVICES\hydra-authn-services\code\hydra-authn-services\hydra-authn-services)
+2023-11-30 11:45:55 [main] INFO  c.e.h.authn.HydraServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-11-30 11:45:57 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9002 (http)
+2023-11-30 11:45:57 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9002"]
+2023-11-30 11:45:57 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-11-30 11:45:57 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.79]
+2023-11-30 11:45:58 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-11-30 11:45:58 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2532 ms
+2023-11-30 11:45:59 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9002"]
+2023-11-30 11:45:59 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9002 (http) with context path ''
+2023-11-30 11:45:59 [main] INFO  c.e.h.authn.HydraServiceApplication - Started HydraServiceApplication in 5.111 seconds (JVM running for 5.981)
+2023-11-30 11:46:48 [http-nio-9002-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-30 11:46:48 [http-nio-9002-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-11-30 11:46:48 [http-nio-9002-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-11-30 11:49:25 [main] INFO  c.e.h.authn.HydraServiceApplication - Starting HydraServiceApplication using Java 17.0.5 on ENR-KOD-LP040 with PID 12072 (C:\ORCA-HYDRA-SERVICES\hydra-authn-services\code\hydra-authn-services\hydra-authn-services\target\classes started by E812 in C:\ORCA-HYDRA-SERVICES\hydra-authn-services\code\hydra-authn-services\hydra-authn-services)
+2023-11-30 11:49:25 [main] INFO  c.e.h.authn.HydraServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2023-11-30 11:49:27 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9002 (http)
+2023-11-30 11:49:27 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9002"]
+2023-11-30 11:49:27 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-11-30 11:49:27 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.79]
+2023-11-30 11:49:28 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-11-30 11:49:28 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2490 ms
+2023-11-30 11:49:29 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9002"]
+2023-11-30 11:49:29 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9002 (http) with context path ''
+2023-11-30 11:49:29 [main] INFO  c.e.h.authn.HydraServiceApplication - Started HydraServiceApplication in 4.985 seconds (JVM running for 5.922)
+2023-11-30 11:51:39 [http-nio-9002-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-30 11:51:39 [http-nio-9002-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-11-30 11:51:39 [http-nio-9002-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
